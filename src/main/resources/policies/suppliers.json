@@ -1,0 +1,13 @@
+{
+  "name": "suppliers",
+  "subjects": [
+    "supplier"
+  ],
+  "authorizations": [
+    {
+      "type": "wildcard",
+      "permission": "web:POST",
+      "resource": "/api/public"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "EU users",
+  "attributes": {
+    "/attributes/location": {
+      "eq": "EU"
+    }
+  },
+  "authorizations": [
+    {
+      "type": "wildcard",
+      "permission": "web:GET",
+      "resource": "/api/gdpr"
+    }
+  ]
+}

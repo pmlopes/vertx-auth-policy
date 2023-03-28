@@ -1,0 +1,13 @@
+{
+  "name": "administrator",
+  "subjects": [
+    "admin"
+  ],
+  "authorizations": [
+    {
+      "type": "wildcard",
+      "permission": "web:*",
+      "resource": "/api/public"
+    }
+  ]
+}

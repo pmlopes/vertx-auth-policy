@@ -1,0 +1,10 @@
+{
+  "name": "public",
+  "authorizations": [
+    {
+      "type": "wildcard",
+      "permission": "web:GET",
+      "resource": "/api/public"
+    }
+  ]
+}
